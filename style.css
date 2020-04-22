@@ -1,4 +1,7 @@
-h1 {
-    background-color: white;
-    color: blue;
+body {
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  font-family: "Merriweather", serif;
 }

@@ -1,16 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahul Dedhia - Professional Summary</title>
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="./assets/rahul_dedhia.png"
+      sizes="16x16"
+      type="image/png"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- stylesheet linking -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap stylesheet linking -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!-- google font styles for Roboto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Include Jquery  used for navigation, footer & by bootstrap library -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- Required for Bootstrap library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Bootstrap JS library   -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
 
-    <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
 
-<body>
-    <h1>Rahul Dedhia</h1>
-</body>
+    <script>
+      $(function() {
+        $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+    <!--end of Navigation bar-->
 
+    <!-- Heading -->
+    <Main class="container">
+      <section class="row">
+        <div class="col-sm-12 text-center my-3"><h4>Summary</h4></div>
+      </section>
+
+      <!-- Highlights -->
+      <div class="row">
+        <div class="col-sm-12 mx-2 text-justify">
+          Techology Leader with 20+ years of technical management, execution and
+          implementation experience. <br />
+          Diverse industry experience in Healthcare, Retail, Finance, Banking,
+          Tax Preparation, Energy Service Sales and Energy Management Service
+          domains. <br />
+          Six Sigma Green Belt Certified. <br />
+          MBA from the University of Kansas.
+        </div>
+      </div>
+
+      <!-- Expertise listing -->
+      <div class="row">
+        <div class="col-sm-12 mx-2 mt-4">
+          <strong> Expertise and qualifications include: </strong><br />
+
+          <ul>
+            <li>Leadership & Mentoring</li>
+            <li>Development/Engineering Management</li>
+            <li>Cost Reductions</li>
+            <li>Program Management</li>
+            <li>Virtual/Offshore Team Building</li>
+            <li>Process Improvement</li>
+            <li>Budget Management</li>
+            <li>
+              Executing multi-million dollar Portfolios/Programs/Projects and
+              assignments ahead of schedule
+            </li>
+            <li>Experience with SAFe, Agile and Waterfall methodologies</li>
+            <li>
+              Strong process improvement, problem solving and team
+              managementskills
+            </li>
+            <li>
+              Hands on with various technologies, development, testing and
+              implementation
+            </li>
+            <li>
+              Exceptional communication skills including oral, written and
+              interpersonal
+            </li>
+            <li>
+              Ability to mobilize cross-functional groups in fast-paced
+              environments
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- blank row -->
+      <div class="row my-3">
+        <div class="col-sm-12 text-left">
+        </div>
+      </div>
+    </Main>
+
+    <!--Footer bar-->
+    <div id="footer-placeholder"></div>
+
+    <script>
+      $(function() {
+        $("#footer-placeholder").load("footer.html");
+      });
+    </script>
+    <!--end of Footer bar-->
+  </body>
 </html>
